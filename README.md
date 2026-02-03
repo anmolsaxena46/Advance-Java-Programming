@@ -9,6 +9,6 @@
 | Date       | Topic/Problem        | 
 |------------|----------------------|
 | 02/02/2026 | Constructors & Basic |
-| 03/02/2026 | Class-Object, String |
-|            | & Inheritance        |
+| 03/02/2026 | Class-Object, String & Inheritance|
+|            |         |
 
