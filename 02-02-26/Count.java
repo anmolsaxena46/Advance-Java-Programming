@@ -30,7 +30,8 @@ public class Count {
 
 }
 
-//The constructor did run every time,
+//The constructor run every time,
 //but it incremented a fresh variable, not a shared one.
 //Instance var - separate copy
 //static var - shared copy
+
