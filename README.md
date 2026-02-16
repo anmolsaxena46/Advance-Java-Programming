@@ -13,4 +13,4 @@
 | 04/02/2026 | Interfaces|
 | 06/02/2026 | Polymorphism|
 | 09/02/2026 | Encapsulation|
-| 16/02/2026 | Functional Interface|
+| 16/02/2026 | Functional Interface & Java-8|
