@@ -18,3 +18,4 @@
 | 18/02/2026 | Method Referencing |
 | 21/02/2026 | Unit-1 Assignment-1 |
 | 22/02/2026 | CA-1 Assignment-1|
+| 23/02/2026 | Record class & var |
