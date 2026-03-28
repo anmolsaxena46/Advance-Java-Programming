@@ -97,10 +97,17 @@ public class ReduceEx {
 				
 				
 				//Q14
-//				List <Integer> listQ13 = Arrays.asList(12, 34, 56, 78);
-//				System.out.println(listQ12);
-//				int Q13 = listQ13.stream().reduce(0,  (a, b)-> a+b);
-//				System.out.println("Sum of digits = " + Q13);
+				List <Integer> listQ14 = Arrays.asList(10, 20, 10, 30, 20, 40, 50);
+				System.out.println(listQ14);
+				int Q14 = listQ14.stream().distinct().reduce(0,  (a, b)-> a+b);
+				System.out.println("Sum of distinct digits = " + Q14);
+				
+				
+				//Q15
+				List <String> listQ15 = Arrays.asList("Java", "Programming", "Stream", "API", "Functional");
+				System.out.println(listQ10);
+				String Q15 = listQ15.stream().map(String::toUpperCase).reduce("",  (a, b)-> a+b);
+				System.out.println("Uppercase Concatenated String = " + Q15);
 		
 	}
 }
