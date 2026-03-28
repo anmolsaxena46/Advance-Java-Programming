@@ -71,6 +71,30 @@ public class SortedEx {
 		List<String> sortedNamesQ12 = namesQ12.stream().sorted((a, b)-> a.length()-b.length()).toList();
 		System.out.println(sortedNamesQ12);
 		
+		
+		//Q13
+		List<Integer> listQ13 = Arrays.asList(25, 14, 50, 33, 45, 18, 60);
+		listQ13.stream().filter(n-> n%5 == 0).sorted().forEach(System.out::println);
+		
+		
+		//Q14
+		List<Integer> listQ14 = Arrays.asList(39, 7, 22, 15, 3, 41);
+		List <Integer> sortedListQ14 = listQ14.stream().sorted().toList();
+		System.out.println(sortedListQ14.get(0));
+		
+		
+		//Q15
+		List<Integer> listQ15 = Arrays.asList(5, 28, 16, 42, 11, 63, 9);
+		List <Integer> sortedListQ15 = listQ15.stream().sorted((a,b)->b-a).limit(2).toList();
+		System.out.println(sortedListQ15);
+		
+		
+		//Q16
+		List<Integer> listQ16 = Arrays.asList(3, 18, 55, 42, 27, 9, 61, 14);
+		List <Integer> sortedListQ16 = listQ16.stream().filter(n->n>=10 && n<=50).sorted((a,b)->a-b).toList();
+		System.out.println(sortedListQ16);
+		
+		
 	}
 
 }
